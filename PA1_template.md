@@ -43,7 +43,7 @@ hist(totalStepsByDate$steps,
      xlab = "Number of Steps")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![](figure/unnamed-chunk-4-1.png)<!-- -->
 
 3. Calculate and report the mean and median of the total number of steps taken per day
 
@@ -73,7 +73,7 @@ plot(meanStepsByInterval$interval,
      ylab = "Average Number of Steps")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](figure/unnamed-chunk-6-1.png)<!-- -->
 
 2. 5-minute interval, on average across all the days in the dataset, which contains the maximum number of steps
 
@@ -121,7 +121,7 @@ hist(newTotalStepsByDate$steps,
      xlab = "Number of Steps")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+![](figure/unnamed-chunk-10-1.png)<!-- -->
 
 5. Calculate and report the new mean and median total number of steps taken per day. 
 
@@ -175,4 +175,4 @@ xyplot(steps ~ interval | dayType,
        ylab = "Average Number of Steps")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-14-1.png)<!-- -->
+![](figure/unnamed-chunk-14-1.png)<!-- -->
